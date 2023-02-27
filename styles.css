@@ -300,6 +300,23 @@ nav > ul {
   display: block;
 }
 
+.journal_7 {
+  display: block;
+  background-image: url("./photo/Journal/15.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1000px;
+  height: 700px;
+  margin-bottom: 90px;
+}
+.journal_7:hover .journal_title {
+  display: block;
+}
+.journal_7:hover {
+  opacity: 90%;
+  display: block;
+}
+
 .journal_2 {
   display: block;
   background-image: url("./photo/Journal/8.jpg");
