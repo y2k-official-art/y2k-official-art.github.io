@@ -2,6 +2,12 @@ body {
   font-family: "Tajawal", sans-serif;
 }
 
+
+.logo {
+  font-family: "Tajawal", sans-serif;
+  font-size: 30px;
+}
+
 .icon {
   display: none;
 }
@@ -156,12 +162,27 @@ nav > ul {
 }
 
 .nav_pc > ul > li:hover > ul {
+  font-weight: bolder;
   display: block;
   font-family: "Rubik", sans-serif;
   line-height: 20px;
-  margin-bottom: 0px;
-  font-size: 14px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
+
+.nav_pc > ul > li > ul > li > ul {
+  display: block;
+  font-family: "Tajawal", sans-serif;
+  line-height: 20px;
+  margin-bottom: 13px;
+  margin-top: 13px;
+  margin-left: 12px;
+  font-size: 18px;
+  opacity: 90%;
+  font-weight: normal;
+}
+
+
 .image_intro{
   font-family: "Rubik", sans-serif;
   font-size: 14px;
@@ -450,7 +471,7 @@ nav > ul {
   }
   .text {
     line-height: 20px;
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 10px;
   }
   .collaberate {
